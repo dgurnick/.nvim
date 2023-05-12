@@ -41,7 +41,10 @@ require("packer").startup(function(use)
 	use {"akinsho/toggleterm.nvim", tag = '*' },
 	use "jhlgns/naysayer88.vim",
 	use "terrortylor/nvim-comment",
-	use "CreaturePhil/vim-handmade-hero"
+	use "CreaturePhil/vim-handmade-hero",
+	use "tyru/open-browser.vim",
+	use "aklt/plantuml-syntax",
+	use "weirongxu/plantuml-previewer.vim",
 }
 end)
 
